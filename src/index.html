@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html; utf-8">
+        <title>Convertir CSV a JSON</title>
+        <style>
+            .container {
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            pre {
+                border: 2px dashed #666;
+                margin: 20px;
+                padding: 10px;
+                font-family: helvetica;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form action="#">
+                <input type="file" id="fileInput" accept=".csv">
+                <button type="submit">Convertir</button>
+            </form>
+            <pre id="result"></pre>
+        </div>
+    </body>
+    <script src="/static/js/papaparse.min.js"></script>
+    <script src="/static/js/form.js"></script>
+</html>
